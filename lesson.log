@@ -1,0 +1,10 @@
+git init
+git add .
+git checkout -b branch_new
+mkdir blog 
+cd blog
+type nul > index.js
+type nul > index.html
+git add .
+git status
+type nul > .gitignore
