@@ -5,6 +5,13 @@ mkdir blog
 cd blog
 type nul > index.js
 type nul > index.html
+cd ..
 git add .
 git status
 type nul > .gitignore
+git rm --cached lesson.log
+git status
+git commit -m 'init git'
+git branch -M main
+git remote add origin https://github.com/kristow13/lesson_test.git
+git push -u origin main
